@@ -6,33 +6,28 @@
     <style>
       h1 {
         text-align: center;
+        background-color: black;
+        color: pink;
+        padding: 20px;
+      }
+      #contents {
+        font-size: 20px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <h1>Back-end 개발자 이나래입니다.</h1>
-
-    // 댓글기능 //
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://introduce-5.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-    <script id="dsq-count-scr" src="//introduce-5.disqus.com/count.js" async></script>
+    <h1>I am Back-end developer, Narae Lee.</h1>
+    <div id="contents">
+      <div id="interest">
+        Interested in cozy home.
+      </div>
+      <div id="pet">
+        My family have a pet. His name is ddole.
+      </div>
+    </div>
   </body>
 </html>
